@@ -1,0 +1,29 @@
+.conditional-rendering-heading {
+  margin-bottom: 32px;
+}
+
+.toggle-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.boxes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.boxes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.box {
+  width: 100%;
+  height: 240px;
+  border-radius: 8px;
+  background-color: red;
+}
